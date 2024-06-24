@@ -22,7 +22,7 @@ function load_java() {
       /usr/local/bin/set_java_ver 20
       ;;
 
-    latest | 1.2?.*)
+    latest | 1.21* | 1.2?.* )
       /usr/local/bin/set_java_ver 21
       ;;
 
